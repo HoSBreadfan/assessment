@@ -21,6 +21,7 @@ namespace Assessment.Controllers
         [Route("Order")]
         public OrderSummaryModel PlaceOrder([FromBody] OrderModel order)
         {
+            order.AppleQuantity *= -1;
             var orderSummary = _shoppingService.PlaceOrder(order);
             return orderSummary;
         }

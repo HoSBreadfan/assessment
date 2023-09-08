@@ -31,3 +31,7 @@ F:\Documents\software\Assessment\Assessment\obj\Debug\net7.0\refint\Assessment.d
 F:\Documents\software\Assessment\Assessment\obj\Debug\net7.0\Assessment.pdb
 F:\Documents\software\Assessment\Assessment\obj\Debug\net7.0\Assessment.genruntimeconfig.cache
 F:\Documents\software\Assessment\Assessment\obj\Debug\net7.0\ref\Assessment.dll
+F:\Documents\software\Assessment\Assessment\bin\Debug\net7.0\xunit.abstractions.dll
+F:\Documents\software\Assessment\Assessment\bin\Debug\net7.0\xunit.assert.dll
+F:\Documents\software\Assessment\Assessment\bin\Debug\net7.0\xunit.core.dll
+F:\Documents\software\Assessment\Assessment\bin\Debug\net7.0\xunit.execution.dotnet.dll
