@@ -9,6 +9,7 @@ namespace Assessment.Controllers
     public class ShoppingController : ControllerBase
     {
         private readonly IShoppingService _shoppingService;
+
         public ShoppingController(IShoppingService shoppingService)
         {
             _shoppingService = shoppingService;

@@ -5,6 +5,7 @@
         private readonly double ApplePrice = .6;
         private readonly double OrangePrice = .25;
 
+        public string Id { get; set; }
 
         public double TotalCost { get; set; }
 
@@ -12,6 +13,8 @@
 
         public OrderSummaryModel(int orangeQuantity, int appleQuantity)
         {
+            Id = Guid.NewGuid().ToString();
+
             OrangeQuantity = orangeQuantity;
             AppleQuantity = appleQuantity;
 

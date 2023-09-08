@@ -1,3 +1,4 @@
+using Assessment.DAL;
 using Assessment.Service;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IShoppingService, ShoppingService>();
+builder.Services.AddSingleton<IOrderRepository, OrderRepository>();
 
 var app = builder.Build();
 
