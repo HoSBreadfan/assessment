@@ -11,11 +11,7 @@ namespace Assessment.Service
     {
         public OrderSummaryModel PlaceOrder(OrderModel order)
         {
-            var orderSummary = new OrderSummaryModel
-            {
-                OrangeQuantity = order.OrangeQuantity,
-                AppleQuantity = order.AppleQuantity
-            };
+            var orderSummary = new OrderSummaryModel(order.OrangeQuantity, order.AppleQuantity);
 
             return orderSummary;
         }

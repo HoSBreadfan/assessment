@@ -1,6 +1,5 @@
 ﻿using Assessment.Model;
 using Assessment.Service;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Assessment.Controllers
