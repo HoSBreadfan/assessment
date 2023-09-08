@@ -1,11 +1,6 @@
 ﻿using Assessment.Controllers;
 using Assessment.Model;
 using Assessment.Service;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace UnitTest
 {
@@ -13,7 +8,8 @@ namespace UnitTest
     {
         [Theory]
         [InlineData(0, 0, 0.00, "$0.00")]
-        [InlineData(3, 3, 2.55, "$2.55")]
+        [InlineData(3, 3, 1.70, "$1.70")]
+        [InlineData(47, 34, 20.15, "$20.15")]
         public void PlaceOrder_Success(int apples, int oranges, double total, string totalString)
         {
             var shoppingService = new ShoppingService();
