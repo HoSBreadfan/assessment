@@ -6,6 +6,8 @@ namespace Assessment.Service
     public interface IShoppingService
     {
         OrderSummaryModel PlaceOrder(OrderModel order);
+        OrderSummaryModel GetOrderSummary(string Id);
+        IList<OrderSummaryModel> GetOrders();
     }
 
     public class ShoppingService : IShoppingService
